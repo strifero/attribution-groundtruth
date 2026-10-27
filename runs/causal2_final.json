@@ -1,0 +1,182 @@
+{
+ "bm25": {
+  "within_cell_vs_effect": [
+   0.133,
+   0.048,
+   0.217
+  ],
+  "vs_own_loss": 0.455,
+  "within_cell_vs_own_loss": 0.233
+ },
+ "embed_bge": {
+  "within_cell_vs_effect": [
+   0.215,
+   0.14,
+   0.292
+  ],
+  "vs_own_loss": 0.101,
+  "within_cell_vs_own_loss": 0.151
+ },
+ "grad_cos_final": {
+  "within_cell_vs_effect": [
+   0.315,
+   0.232,
+   0.396
+  ],
+  "vs_own_loss": 0.583,
+  "within_cell_vs_own_loss": 0.448
+ },
+ "grad_cos_s0006000": {
+  "within_cell_vs_effect": [
+   0.305,
+   0.227,
+   0.385
+  ],
+  "vs_own_loss": 0.422,
+  "within_cell_vs_own_loss": 0.481
+ },
+ "grad_cos_s0011500": {
+  "within_cell_vs_effect": [
+   0.33,
+   0.247,
+   0.407
+  ],
+  "vs_own_loss": 0.476,
+  "within_cell_vs_own_loss": 0.466
+ },
+ "grad_cos_s0017500": {
+  "within_cell_vs_effect": [
+   0.344,
+   0.266,
+   0.423
+  ],
+  "vs_own_loss": 0.555,
+  "within_cell_vs_own_loss": 0.445
+ },
+ "grad_dot_final": {
+  "within_cell_vs_effect": [
+   0.316,
+   0.229,
+   0.394
+  ],
+  "vs_own_loss": 0.584,
+  "within_cell_vs_own_loss": 0.451
+ },
+ "grad_dot_s0006000": {
+  "within_cell_vs_effect": [
+   0.303,
+   0.219,
+   0.375
+  ],
+  "vs_own_loss": 0.426,
+  "within_cell_vs_own_loss": 0.483
+ },
+ "grad_dot_s0011500": {
+  "within_cell_vs_effect": [
+   0.331,
+   0.251,
+   0.409
+  ],
+  "vs_own_loss": 0.473,
+  "within_cell_vs_own_loss": 0.469
+ },
+ "grad_dot_s0017500": {
+  "within_cell_vs_effect": [
+   0.344,
+   0.263,
+   0.419
+  ],
+  "vs_own_loss": 0.555,
+  "within_cell_vs_own_loss": 0.447
+ },
+ "grad_if_final": {
+  "within_cell_vs_effect": [
+   0.354,
+   0.277,
+   0.43
+  ],
+  "vs_own_loss": 0.734,
+  "within_cell_vs_own_loss": 0.6
+ },
+ "grad_if_s0006000": {
+  "within_cell_vs_effect": [
+   0.387,
+   0.309,
+   0.462
+  ],
+  "vs_own_loss": 0.576,
+  "within_cell_vs_own_loss": 0.598
+ },
+ "grad_if_s0011500": {
+  "within_cell_vs_effect": [
+   0.357,
+   0.271,
+   0.435
+  ],
+  "vs_own_loss": 0.61,
+  "within_cell_vs_own_loss": 0.58
+ },
+ "grad_if_s0017500": {
+  "within_cell_vs_effect": [
+   0.406,
+   0.329,
+   0.479
+  ],
+  "vs_own_loss": 0.706,
+  "within_cell_vs_own_loss": 0.591
+ },
+ "rep_cos_final": {
+  "within_cell_vs_effect": [
+   0.08,
+   -0.006,
+   0.17
+  ],
+  "vs_own_loss": -0.035,
+  "within_cell_vs_own_loss": -0.082
+ },
+ "rep_cos_s0006000": {
+  "within_cell_vs_effect": [
+   0.081,
+   -0.003,
+   0.165
+  ],
+  "vs_own_loss": 0.065,
+  "within_cell_vs_own_loss": 0.006
+ },
+ "rep_cos_s0011500": {
+  "within_cell_vs_effect": [
+   0.072,
+   -0.01,
+   0.165
+  ],
+  "vs_own_loss": 0.004,
+  "within_cell_vs_own_loss": -0.061
+ },
+ "rep_cos_s0017500": {
+  "within_cell_vs_effect": [
+   0.047,
+   -0.046,
+   0.132
+  ],
+  "vs_own_loss": -0.017,
+  "within_cell_vs_own_loss": -0.096
+ },
+ "tracin_grad_dot": {
+  "within_cell_vs_effect": [
+   0.336,
+   0.257,
+   0.412
+  ],
+  "vs_own_loss": 0.447,
+  "within_cell_vs_own_loss": 0.482
+ },
+ "tracin_grad_if": {
+  "within_cell_vs_effect": [
+   0.407,
+   0.327,
+   0.484
+  ],
+  "vs_own_loss": 0.642,
+  "within_cell_vs_own_loss": 0.622
+ }
+}

@@ -1,0 +1,41 @@
+# Elroy-124M for the attribution study: GPT-2-small shape, Elroy's tokenizer and data mix,
+# trained once, in order, through a fixed stream (stream_loader.py) so every example's step is known.
+name: tda-124m
+
+model:
+  vocab_size: 32768
+  n_layer: 12
+  n_head: 12
+  d_model: 768
+  d_ff: 2048
+  seq_len: 1024
+  rope_theta: 10000
+  tie_embeddings: true
+  dropout: 0.0
+
+data:
+  shards_dir: data/shards
+  stream: data/stream_A.npy          # overridden with --stream for run B
+  mix:                               # names only (validation sets); the stream fixes the order
+    python_edu: 0.45
+    python_stack: 0.20
+    fineweb_edu: 0.25
+    cosmopedia: 0.10
+
+train:
+  total_tokens: 5_000_000_000        # trimmed by build_stream.py to a whole number of steps
+  tokens_per_step: 262_144           # 256 windows of 1024
+  micro_batch: 16
+  lr: 6.0e-4
+  min_lr_ratio: 0.1
+  warmup_steps: 500
+  anneal_fraction: 0.0
+  weight_decay: 0.1
+  betas: [0.9, 0.95]
+  grad_clip: 1.0
+  dtype: bfloat16
+  compile: true
+  eval_every: 500
+  checkpoint_every: 500
+  milestone_every_tokens: 500_000_000   # permanent checkpoint every 0.5B tokens (TracIn-style methods use them)
+  seed: 1337

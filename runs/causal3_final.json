@@ -1,0 +1,282 @@
+{
+ "bm25": {
+  "vs_len": 0.185,
+  "vs_base_loss": 0.264,
+  "partial_effect": [
+   -0.021,
+   -0.1,
+   0.062
+  ],
+  "partial_effect_per_token": [
+   0.044,
+   -0.042,
+   0.138
+  ]
+ },
+ "embed_bge": {
+  "vs_len": 0.249,
+  "vs_base_loss": 0.177,
+  "partial_effect": [
+   0.153,
+   0.07,
+   0.229
+  ],
+  "partial_effect_per_token": [
+   0.191,
+   0.108,
+   0.267
+  ]
+ },
+ "grad_cos_final": {
+  "vs_len": 0.535,
+  "vs_base_loss": 0.474,
+  "partial_effect": [
+   0.088,
+   0.001,
+   0.172
+  ],
+  "partial_effect_per_token": [
+   0.113,
+   0.023,
+   0.201
+  ]
+ },
+ "grad_cos_s0006000": {
+  "vs_len": 0.609,
+  "vs_base_loss": 0.545,
+  "partial_effect": [
+   0.02,
+   -0.057,
+   0.098
+  ],
+  "partial_effect_per_token": [
+   0.043,
+   -0.037,
+   0.128
+  ]
+ },
+ "grad_cos_s0011500": {
+  "vs_len": 0.605,
+  "vs_base_loss": 0.529,
+  "partial_effect": [
+   0.072,
+   -0.024,
+   0.159
+  ],
+  "partial_effect_per_token": [
+   0.099,
+   0.011,
+   0.181
+  ]
+ },
+ "grad_cos_s0017500": {
+  "vs_len": 0.563,
+  "vs_base_loss": 0.505,
+  "partial_effect": [
+   0.107,
+   0.022,
+   0.198
+  ],
+  "partial_effect_per_token": [
+   0.142,
+   0.044,
+   0.234
+  ]
+ },
+ "grad_dot_final": {
+  "vs_len": 0.54,
+  "vs_base_loss": 0.475,
+  "partial_effect": [
+   0.088,
+   -0.004,
+   0.173
+  ],
+  "partial_effect_per_token": [
+   0.114,
+   0.025,
+   0.211
+  ]
+ },
+ "grad_dot_s0006000": {
+  "vs_len": 0.604,
+  "vs_base_loss": 0.545,
+  "partial_effect": [
+   0.016,
+   -0.07,
+   0.101
+  ],
+  "partial_effect_per_token": [
+   0.041,
+   -0.041,
+   0.114
+  ]
+ },
+ "grad_dot_s0011500": {
+  "vs_len": 0.604,
+  "vs_base_loss": 0.53,
+  "partial_effect": [
+   0.071,
+   -0.009,
+   0.159
+  ],
+  "partial_effect_per_token": [
+   0.099,
+   0.008,
+   0.19
+  ]
+ },
+ "grad_dot_s0017500": {
+  "vs_len": 0.563,
+  "vs_base_loss": 0.509,
+  "partial_effect": [
+   0.103,
+   0.01,
+   0.187
+  ],
+  "partial_effect_per_token": [
+   0.14,
+   0.05,
+   0.232
+  ]
+ },
+ "grad_if_final": {
+  "vs_len": 0.704,
+  "vs_base_loss": 0.63,
+  "partial_effect": [
+   0.029,
+   -0.062,
+   0.119
+  ],
+  "partial_effect_per_token": [
+   0.029,
+   -0.065,
+   0.117
+  ]
+ },
+ "grad_if_s0006000": {
+  "vs_len": 0.74,
+  "vs_base_loss": 0.678,
+  "partial_effect": [
+   0.04,
+   -0.046,
+   0.126
+  ],
+  "partial_effect_per_token": [
+   0.02,
+   -0.077,
+   0.113
+  ]
+ },
+ "grad_if_s0011500": {
+  "vs_len": 0.73,
+  "vs_base_loss": 0.654,
+  "partial_effect": [
+   0.012,
+   -0.082,
+   0.111
+  ],
+  "partial_effect_per_token": [
+   -0.001,
+   -0.092,
+   0.101
+  ]
+ },
+ "grad_if_s0017500": {
+  "vs_len": 0.726,
+  "vs_base_loss": 0.665,
+  "partial_effect": [
+   0.085,
+   -0.009,
+   0.177
+  ],
+  "partial_effect_per_token": [
+   0.069,
+   -0.022,
+   0.17
+  ]
+ },
+ "rep_cos_final": {
+  "vs_len": -0.055,
+  "vs_base_loss": -0.051,
+  "partial_effect": [
+   0.129,
+   0.045,
+   0.21
+  ],
+  "partial_effect_per_token": [
+   0.144,
+   0.063,
+   0.228
+  ]
+ },
+ "rep_cos_s0006000": {
+  "vs_len": 0.01,
+  "vs_base_loss": -0.001,
+  "partial_effect": [
+   0.099,
+   0.016,
+   0.183
+  ],
+  "partial_effect_per_token": [
+   0.124,
+   0.041,
+   0.213
+  ]
+ },
+ "rep_cos_s0011500": {
+  "vs_len": -0.05,
+  "vs_base_loss": -0.048,
+  "partial_effect": [
+   0.118,
+   0.041,
+   0.21
+  ],
+  "partial_effect_per_token": [
+   0.126,
+   0.044,
+   0.21
+  ]
+ },
+ "rep_cos_s0017500": {
+  "vs_len": -0.087,
+  "vs_base_loss": -0.083,
+  "partial_effect": [
+   0.11,
+   0.023,
+   0.189
+  ],
+  "partial_effect_per_token": [
+   0.139,
+   0.054,
+   0.229
+  ]
+ },
+ "tracin_grad_dot": {
+  "vs_len": 0.626,
+  "vs_base_loss": 0.555,
+  "partial_effect": [
+   0.06,
+   -0.017,
+   0.148
+  ],
+  "partial_effect_per_token": [
+   0.092,
+   0.004,
+   0.177
+  ]
+ },
+ "tracin_grad_if": {
+  "vs_len": 0.778,
+  "vs_base_loss": 0.714,
+  "partial_effect": [
+   0.044,
+   -0.045,
+   0.137
+  ],
+  "partial_effect_per_token": [
+   0.026,
+   -0.077,
+   0.123
+  ]
+ }
+}

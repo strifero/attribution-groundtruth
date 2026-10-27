@@ -1,0 +1,12 @@
+venv/
+ckpt/
+data/shards/
+data/raw/
+data/stream_*.npy
+data/index_*.npz
+runs/attr/*/pool_text.jsonl
+runs/attr/*/scores_*.npy
+runs/attr/*/*/
+__pycache__/
+*.log
+logs/

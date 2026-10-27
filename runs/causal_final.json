@@ -1,0 +1,451 @@
+{
+ "n_learned": 163,
+ "learned_by_freq": {
+  "2": 0.068,
+  "8": 0.159,
+  "32": 0.432,
+  "128": 0.576
+ },
+ "methods": {
+  "grad_dot_s0011500": {
+   "spearman": 0.146,
+   "auroc": 0.484,
+   "by_freq": {
+    "2": {
+     "spearman": 0.033,
+     "auroc": 0.518
+    },
+    "8": {
+     "spearman": 0.307,
+     "auroc": 0.527
+    },
+    "32": {
+     "spearman": 0.276,
+     "auroc": 0.527
+    },
+    "128": {
+     "spearman": 0.284,
+     "auroc": 0.512
+    }
+   }
+  },
+  "bm25": {
+   "spearman": -0.271,
+   "auroc": 0.313,
+   "by_freq": {
+    "2": {
+     "spearman": 0.019,
+     "auroc": 0.519
+    },
+    "8": {
+     "spearman": 0.11,
+     "auroc": 0.431
+    },
+    "32": {
+     "spearman": 0.217,
+     "auroc": 0.523
+    },
+    "128": {
+     "spearman": 0.27,
+     "auroc": 0.625
+    }
+   }
+  },
+  "embed_bge": {
+   "spearman": 0.18,
+   "auroc": 0.585,
+   "by_freq": {
+    "2": {
+     "spearman": -0.002,
+     "auroc": 0.551
+    },
+    "8": {
+     "spearman": 0.241,
+     "auroc": 0.452
+    },
+    "32": {
+     "spearman": 0.23,
+     "auroc": 0.673
+    },
+    "128": {
+     "spearman": 0.314,
+     "auroc": 0.676
+    }
+   }
+  },
+  "grad_dot_s0017500": {
+   "spearman": 0.117,
+   "auroc": 0.473,
+   "by_freq": {
+    "2": {
+     "spearman": 0.115,
+     "auroc": 0.528
+    },
+    "8": {
+     "spearman": 0.189,
+     "auroc": 0.497
+    },
+    "32": {
+     "spearman": 0.259,
+     "auroc": 0.488
+    },
+    "128": {
+     "spearman": 0.079,
+     "auroc": 0.501
+    }
+   }
+  },
+  "grad_cos_s0011500": {
+   "spearman": 0.153,
+   "auroc": 0.484,
+   "by_freq": {
+    "2": {
+     "spearman": 0.036,
+     "auroc": 0.5
+    },
+    "8": {
+     "spearman": 0.31,
+     "auroc": 0.523
+    },
+    "32": {
+     "spearman": 0.281,
+     "auroc": 0.527
+    },
+    "128": {
+     "spearman": 0.29,
+     "auroc": 0.515
+    }
+   }
+  },
+  "tracin_grad_if": {
+   "spearman": 0.067,
+   "auroc": 0.438,
+   "by_freq": {
+    "2": {
+     "spearman": 0.021,
+     "auroc": 0.464
+    },
+    "8": {
+     "spearman": 0.294,
+     "auroc": 0.437
+    },
+    "32": {
+     "spearman": 0.372,
+     "auroc": 0.53
+    },
+    "128": {
+     "spearman": 0.468,
+     "auroc": 0.623
+    }
+   }
+  },
+  "grad_cos_final": {
+   "spearman": 0.104,
+   "auroc": 0.462,
+   "by_freq": {
+    "2": {
+     "spearman": 0.122,
+     "auroc": 0.499
+    },
+    "8": {
+     "spearman": 0.184,
+     "auroc": 0.486
+    },
+    "32": {
+     "spearman": 0.225,
+     "auroc": 0.467
+    },
+    "128": {
+     "spearman": 0.028,
+     "auroc": 0.489
+    }
+   }
+  },
+  "grad_if_s0006000": {
+   "spearman": 0.135,
+   "auroc": 0.492,
+   "by_freq": {
+    "2": {
+     "spearman": -0.01,
+     "auroc": 0.429
+    },
+    "8": {
+     "spearman": 0.274,
+     "auroc": 0.442
+    },
+    "32": {
+     "spearman": 0.469,
+     "auroc": 0.615
+    },
+    "128": {
+     "spearman": 0.521,
+     "auroc": 0.683
+    }
+   }
+  },
+  "rep_cos_s0011500": {
+   "spearman": 0.118,
+   "auroc": 0.563,
+   "by_freq": {
+    "2": {
+     "spearman": -0.032,
+     "auroc": 0.432
+    },
+    "8": {
+     "spearman": 0.094,
+     "auroc": 0.513
+    },
+    "32": {
+     "spearman": 0.128,
+     "auroc": 0.563
+    },
+    "128": {
+     "spearman": 0.191,
+     "auroc": 0.662
+    }
+   }
+  },
+  "grad_if_s0017500": {
+   "spearman": 0.028,
+   "auroc": 0.407,
+   "by_freq": {
+    "2": {
+     "spearman": 0.057,
+     "auroc": 0.505
+    },
+    "8": {
+     "spearman": 0.248,
+     "auroc": 0.381
+    },
+    "32": {
+     "spearman": 0.318,
+     "auroc": 0.482
+    },
+    "128": {
+     "spearman": 0.137,
+     "auroc": 0.535
+    }
+   }
+  },
+  "tracin_grad_dot": {
+   "spearman": 0.257,
+   "auroc": 0.547,
+   "by_freq": {
+    "2": {
+     "spearman": 0.004,
+     "auroc": 0.442
+    },
+    "8": {
+     "spearman": 0.276,
+     "auroc": 0.502
+    },
+    "32": {
+     "spearman": 0.387,
+     "auroc": 0.572
+    },
+    "128": {
+     "spearman": 0.378,
+     "auroc": 0.579
+    }
+   }
+  },
+  "rep_cos_final": {
+   "spearman": 0.149,
+   "auroc": 0.593,
+   "by_freq": {
+    "2": {
+     "spearman": -0.01,
+     "auroc": 0.471
+    },
+    "8": {
+     "spearman": 0.113,
+     "auroc": 0.544
+    },
+    "32": {
+     "spearman": 0.117,
+     "auroc": 0.585
+    },
+    "128": {
+     "spearman": 0.293,
+     "auroc": 0.696
+    }
+   }
+  },
+  "rep_cos_s0006000": {
+   "spearman": 0.103,
+   "auroc": 0.531,
+   "by_freq": {
+    "2": {
+     "spearman": -0.024,
+     "auroc": 0.442
+    },
+    "8": {
+     "spearman": 0.163,
+     "auroc": 0.483
+    },
+    "32": {
+     "spearman": 0.125,
+     "auroc": 0.565
+    },
+    "128": {
+     "spearman": 0.127,
+     "auroc": 0.584
+    }
+   }
+  },
+  "grad_cos_s0017500": {
+   "spearman": 0.126,
+   "auroc": 0.476,
+   "by_freq": {
+    "2": {
+     "spearman": 0.125,
+     "auroc": 0.537
+    },
+    "8": {
+     "spearman": 0.188,
+     "auroc": 0.491
+    },
+    "32": {
+     "spearman": 0.272,
+     "auroc": 0.495
+    },
+    "128": {
+     "spearman": 0.089,
+     "auroc": 0.505
+    }
+   }
+  },
+  "grad_dot_final": {
+   "spearman": 0.096,
+   "auroc": 0.457,
+   "by_freq": {
+    "2": {
+     "spearman": 0.114,
+     "auroc": 0.5
+    },
+    "8": {
+     "spearman": 0.179,
+     "auroc": 0.485
+    },
+    "32": {
+     "spearman": 0.21,
+     "auroc": 0.457
+    },
+    "128": {
+     "spearman": 0.022,
+     "auroc": 0.485
+    }
+   }
+  },
+  "grad_if_s0011500": {
+   "spearman": 0.033,
+   "auroc": 0.421,
+   "by_freq": {
+    "2": {
+     "spearman": 0.029,
+     "auroc": 0.465
+    },
+    "8": {
+     "spearman": 0.31,
+     "auroc": 0.45
+    },
+    "32": {
+     "spearman": 0.296,
+     "auroc": 0.523
+    },
+    "128": {
+     "spearman": 0.377,
+     "auroc": 0.573
+    }
+   }
+  },
+  "grad_dot_s0006000": {
+   "spearman": 0.252,
+   "auroc": 0.562,
+   "by_freq": {
+    "2": {
+     "spearman": -0.029,
+     "auroc": 0.41
+    },
+    "8": {
+     "spearman": 0.246,
+     "auroc": 0.469
+    },
+    "32": {
+     "spearman": 0.419,
+     "auroc": 0.621
+    },
+    "128": {
+     "spearman": 0.407,
+     "auroc": 0.62
+    }
+   }
+  },
+  "grad_if_final": {
+   "spearman": -0.019,
+   "auroc": 0.38,
+   "by_freq": {
+    "2": {
+     "spearman": 0.084,
+     "auroc": 0.527
+    },
+    "8": {
+     "spearman": 0.223,
+     "auroc": 0.379
+    },
+    "32": {
+     "spearman": 0.232,
+     "auroc": 0.423
+    },
+    "128": {
+     "spearman": 0.06,
+     "auroc": 0.518
+    }
+   }
+  },
+  "rep_cos_s0017500": {
+   "spearman": 0.104,
+   "auroc": 0.565,
+   "by_freq": {
+    "2": {
+     "spearman": -0.031,
+     "auroc": 0.464
+    },
+    "8": {
+     "spearman": 0.1,
+     "auroc": 0.533
+    },
+    "32": {
+     "spearman": 0.056,
+     "auroc": 0.562
+    },
+    "128": {
+     "spearman": 0.225,
+     "auroc": 0.667
+    }
+   }
+  },
+  "grad_cos_s0006000": {
+   "spearman": 0.258,
+   "auroc": 0.564,
+   "by_freq": {
+    "2": {
+     "spearman": -0.026,
+     "auroc": 0.41
+    },
+    "8": {
+     "spearman": 0.242,
+     "auroc": 0.465
+    },
+    "32": {
+     "spearman": 0.416,
+     "auroc": 0.622
+    },
+    "128": {
+     "spearman": 0.407,
+     "auroc": 0.619
+    }
+   }
+  }
+ }
+}
