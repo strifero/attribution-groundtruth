@@ -10,3 +10,4 @@ runs/attr/*/*/
 __pycache__/
 *.log
 logs/
+release/stage/
